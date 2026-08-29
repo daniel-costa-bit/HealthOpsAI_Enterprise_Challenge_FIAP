@@ -15,6 +15,7 @@ O HealthOps AI resolve o problema da superlotação hospitalar atuando de forma 
 * `/data/raw`: Os microdados brutos e intocados direto das fontes oficiais (CNES, IBGE e DATASUS).
 * `/data/processed`: Arquivos higienizados (Base Mestra) e o output do modelo preditivo prontos para consumo do BI.
 * `/src`: Os scripts Python de ETL e o modelo preditivo (`modelo_preditivo.py`).
+* `/PowerBI`: O próprio dashboard com os scripts de criação e ajustes. 
 
 ## 💻 Como executar
 1. Instale as dependências com `pip install -r requirements.txt`.
